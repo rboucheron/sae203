@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+  .barre {
+    font-family: 'Archivo Narrow', sans-serif;
+    margin: 200px auto 0;
+    position: relative;
+    width: 500px;
+    height: 50px;
+    background-color: black;
+    border-radius: 35px;
+    font-size: 0;
+    margin-bottom: 25px;
+  }
+  
+  
+  .barre input{
+    padding: 0;
+  border: none;
+  background: none;
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #E6E6F2;
+    cursor: pointer;
+    width: calc(100% / 3);
+  }
+  
+  
+  .barre input:hover{
+    background-color: #E6E6F2;
+    color: black;
+    border-radius: 35px;
+  }
+  
+  
+  .barre .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    transition: all .5s ease 0s;
+    border-radius: 35px;
+    background-color: #625CAC;
+  }
+#newobject{
+  position: absolute;
+  right: 40px;
+}
+
+  
+  

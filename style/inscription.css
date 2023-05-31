@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, rgba(92,85,158,1) 0%, rgba(204,203,226,1) 100%);
+}
+.formulaire{
+    background-color: #E6E6F2;
+    display: block;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 30px;
+    box-shadow: 24px 29px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+label{
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Archivo Narrow', sans-serif;
+  color: #2F2A86;
+
+}
+#email{
+    background: #2F2A86;
+    width: 90%;
+    height: 35px;
+    border-radius: 67px;
+    border: 0px;
+    color: #E6E6F2;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+.nom_prenom{
+    display: flex;
+}
+#nom{
+    background: #2F2A86;
+    width: 85%;
+    height: 35px;
+    border-radius: 67px;
+    border: 0px;
+    color: #E6E6F2;
+    margin-bottom: 20px;   
+    padding: 5px;
+    font-size: 20px;
+}
+#prnom{
+    background: #2F2A86;
+    width: 85%;
+    height: 35px;
+    border-radius: 67px;
+    border: 0px;
+    color: #E6E6F2;
+    margin-bottom: 20px; 
+    padding: 5px;
+    font-size: 20px;
+}
+#mp{
+    background: #2F2A86;
+    width: 90%;
+    height: 35px;
+    border-radius: 67px;
+    border: 0px;
+    color: #E6E6F2;
+    margin-bottom: 20px;  
+    padding: 5px;
+    font-size: 20px; 
+}
+#date{
+    background: #2F2A86;
+    width: 90%;
+    height: 35px;
+    border-radius: 67px;
+    border: 0px;
+    color: #E6E6F2;
+    margin-bottom: 20px;  
+    padding: 5px;
+    font-size: 20px;  
+}
+#cmp{
+    background: #2F2A86;
+    width: 90%;
+    height: 35px;
+    border-radius: 67px;
+    border: 0px;
+    color: #E6E6F2;
+    margin-bottom: 20px; 
+    padding: 5px;
+    font-size: 20px; 
+}
+#btn{
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #2F2A86;
+    background: #E6E6F2;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 15px;
+    border: 0px;
+    width: 200px;
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
+    transition-property: background, color;
+    transition-duration: 1s, 200ms;
+    cursor: pointer;
+   
+}
+#btn:hover{
+    background: #2F2A86;
+    color: #E6E6F2;
+}
+#btn2{
+    font-family: 'Archivo Narrow', sans-serif;
+    background: #2F2A86;
+    color: #E6E6F2;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 15px;
+    border: 0px;
+    width: 200px;
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    right: 500px;
+    transition-property: background, color;
+    transition-duration: 1s, 200ms;
+    cursor: pointer;
+}
+#btn2:hover{
+    color: #2F2A86;
+    background: #E6E6F2;
+}
+.back {
+    position: fixed;
+    top: 10px;
+    left: 15px;
+    background-color: #2F2A86;
+    color: #E6E6F2;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.back:hover {
+    background-color: #E6E6F2;
+    color: #2F2A86;
+}
+.back i {
+    margin-left: 5px;
+}
+.btn4{
+    background-color: #E6E6F2;
+    color: #2F2A86;
+}
+.erreur{
+    
+    width: 100%;
+    color: red;
+    position: absolute;
+    bottom: 10px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.erreur p{
+    background-color: #E6E6F2;
+    padding: 10px;
+}

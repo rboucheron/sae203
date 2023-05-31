@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, rgba(92,85,158,1) 0%, rgba(204,203,226,1) 100%);
+}
+.all{
+ position: fixed;
+    top: 10px;
+    right: 10px;
+    display: block;
+    display: block;
+    height: 80px;
+    overflow: hidden;
+    cursor: pointer;
+    transition-property: height;
+    transition-duration: 500ms, 100ms;
+}
+.all:hover{
+    height: 150px;
+}
+.profil{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+}
+.identiter h3{
+    font-family: 'Archivo Narrow', sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.identiter h4{
+    font-family: 'Archivo Narrow', sans-serif;
+     font-size: 15px;
+}
+.disconnect{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse; 
+    
+}
+#btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #E6E6F2;
+    background: #000000;
+    font-size: 14px;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 15px;
+    border: 0px;
+    width: 150px;
+    transition-property: background, color, padding-top;
+    transition-duration: 1s, 200ms;
+    cursor: pointer;
+}
+#btn2:hover{
+    background: #2F2A86;
+}
+#btn2:active{
+
+    padding-top: 25px;
+}
+
+
+  #presentation{
+    height: 70%;
+    margin-bottom: 400px;
+  }
+
+section h1{
+    color: #FFFF;
+    font-size: 100px;
+    font-family: 'Archivo Narrow', sans-serif;
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+#btn{
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #2F2A86;
+    background: #E6E6F2;
+    font-size: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 15px;
+    border: 0px;
+    width: 200px;
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
+    transition-property: background, color;
+    transition-duration: 1s, 200ms;
+    cursor: pointer;
+}
+#btn:hover{
+    background: #2F2A86;
+    color: #E6E6F2;
+}
+#btn3{
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #E6E6F2;
+    background: #2F2A86;
+    font-size: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 15px;
+    border: 0px;
+    width: 200px;
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    right: 400px;
+    transition-property: background, color;
+    transition-duration: 1s, 200ms;
+    cursor: pointer;
+}
+#btn3:hover{
+    background: #E6E6F2;
+    color:  #2F2A86;
+}
+.btn4{
+    background: #E6E6F2 !important;
+    color:  #2F2A86 !important;
+}
